@@ -1,0 +1,33 @@
+textarea:not(#caption) {
+    font-family: 'Consolas', Courier, monospace
+}
+
+#visual .selected {
+    border: 1px solid #9af !important;
+    background: #abf !important;
+}
+
+#visual th:hover, #visual td:hover {
+    border: 1px solid #aaa !important;
+    background: #ddd !important;
+}
+
+#tableToolbar {
+    position: fixed;
+    bottom: 0%;
+    background-color: #eaeef1;
+} 
+
+#tableNum {
+    width: 40%;
+}
+
+#tableTitle {
+    font-weight: bold;
+    width: 60%;
+}
+
+#tableUnit {
+    width: 40%;
+    font-size: 0.9em;
+}

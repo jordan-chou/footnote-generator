@@ -1,0 +1,3 @@
+textarea:not(#caption) {
+    font-family: 'Consolas', Courier, monospace
+}

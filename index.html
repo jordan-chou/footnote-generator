@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Footnote Generator</title>
+    <meta name="description" content="Generate WET Style footnotes from inputted HTML code that was produced from a Word document to Dreamweaver">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jordan Chou">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/wet-boew.min.css">
+    <link rel="stylesheet" href="css/theme.min.css">
+    <link rel="stylesheet" href="css/footnote-generator.css">
+</head>
+<body>
+    <div class="container">
+        <div id="header">
+            <h1>Footnote Generator  &#8211; <span class="small">v22.09.08</span></h1>
+        </div>
+
+        <!-- Input -->
+        <section id="input">
+            <h2>HTML Input</h2>
+            <button type="button" class="btn btn-default mrgn-bttm-md" id="langBtn" title="Toggle the language">English</button>
+            <textarea class="form-control mrgn-bttm-sm" style="width: 100%;" rows="16" name ='inputTextarea' id='inputText' title="Paste the HTML markup" placeholder="Paste in the HTML code from Dreamweaver"></textarea>
+            <button type="button" class="btn btn-lg btn-primary" id="submitBtn" title="Generate the footnote HTML markup">Generate</button>
+        </section>
+
+        <!-- Output -->
+        <section id="outputSection" class="hidden">
+            <hr>
+            <h2>Output</h2>
+            <div>
+                <label id='outputLabel'>HTML Results <input type="button" class="btn btn-default btn-sm" id="copyBtn" value="Copy"> <span id="copiedLabel" class='wb-inv label label-success'>Copied</span></label>
+                <pre readonly class="form-control mrgn-bttm-sm" style="width: 100%; max-height: 500px;" rows="16" name ='outputTextarea' id='outputText'></pre>
+                <textarea class='wb-inv' id='copyArea'></textarea>
+            </div>
+            <div class="mrgn-tp-lg">
+                <label id="previewLabel">Footnotes Preview <input type="button" class="btn btn-default btn-sm" id="fullPrevBtn" value="Toggle Full Preview"></label>
+                <div id="preview"></div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Custom Scripts -->
+    <script src="src/util.js"></script>
+    <script src="src/defaults.js"></script>
+    <script src="src/footnote-generator.js"></script>
+</body>
+</html>
