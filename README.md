@@ -1,4 +1,4 @@
-# footnote-generator
+# Footnote Generator
 Generate WET Style footnotes from inputted HTML code that was produced from Word. This tool is recommended to be used at the beginning of the HTML coding process.
 
 ## Features
