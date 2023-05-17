@@ -8,10 +8,10 @@ Generate WET Style footnotes from inputted HTML code that was produced from Word
 * Supports accessibility standards
 
 ## Instructions
-* Open `index.html`
-* Copy the **entire** HTML body source, paste it and overwrite the contents in the HTML Input box
-* Press the Generate button
-* Toggle the Full Preview to see and test the linking between the references and footnotes
+1. Open `index.html`
+2. Copy the **entire** HTML body source, paste it and overwrite the contents in the HTML Input box
+3. Press the Generate button
+4. Toggle the Full Preview to see and test the linking between the references and footnotes
 
 ## Options
 **Language button**: Select between _English_ and _Français_ so that headings and accessibility text are in the appropriate language.
