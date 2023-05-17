@@ -1,5 +1,5 @@
 # Footnote Generator
-Generate WET Style footnotes from inputted HTML code that was produced from Word. This tool is recommended to be used at the beginning of the HTML coding process.
+Generate [Web Experience Toolkit (WET) Style](https://wet-boew.github.io/wet-boew/index-en.html) footnotes from inputted HTML code that was produced from Word. This tool is recommended to be used at the beginning of the HTML coding process.
 
 ## Features
 * Footnote section
