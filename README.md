@@ -1,6 +1,8 @@
 # Footnote Generator
 Generate [Web Experience Toolkit (WET)](https://wet-boew.github.io/wet-boew/index-en.html) Style footnotes from inputted HTML code that was produced from Word. This tool is recommended to be used at the beginning of the HTML coding process.
 
+**This tool is actively used to code footnotes in the [Federal Budget](https://www.canada.ca/en/department-finance/services/publications/federal-budget.html) and other Finance Canada publications.**
+
 The footnote output complies with TBS guidance found here: https://wet-boew.github.io/v4.0-ci/demos/footnotes/footnotes-en.html
 
 This project is regularly updated twice a year when performing critical analysis review for the Department of Finance's major reports: Federal Budget, and Economic and Fiscal Update (EFU) or Fall Economic Statement (FES).
