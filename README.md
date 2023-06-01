@@ -35,3 +35,6 @@ This project started in mid-2022 when I first started as a Web Publisher with th
 
 ### What was my experience at the time?
 I have worked on several tools at Finance Canada at this point. I frequently used JavaScript, HTML, and JS DOM Node elements for my projects. This tool was used initially to efficiently publish reports and documents.
+
+### Contact
+Please feel free to reach out to me for feedback, issues, or requests at jordan.chou@fin.gc.ca.
