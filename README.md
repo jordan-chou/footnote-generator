@@ -19,8 +19,8 @@ This project is regularly updated twice a year when performing critical analysis
 3. Press the Generate button
 4. Toggle the Full Preview to see and test the linking between the references and footnotes
 
-## Feedback or issues
-Please feel free to create in Issue [on Github](https://github.com/jordan-chou/footnote-generator/issues) to provide feedback or flag issues.
+## Requests and Issues
+Please feel free to create in Issue [on Github](https://github.com/jordan-chou/footnote-generator/issues) to make a request or flag issues.
 
 ## Options
 **Language button**: Select between _English_ and _Français_ so that headings and accessibility text are in the appropriate language.
